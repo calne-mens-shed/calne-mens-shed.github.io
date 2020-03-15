@@ -1,0 +1,149 @@
+﻿/*********************************
+Global styles
+**********************************/
+html {
+	box-sizing: border-box;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+body {
+	font-family: Arial;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	text-align: center;
+}
+a {
+	color: #36c;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+hr {
+	border: none;
+	height: 1px;
+	background-color: #999;
+}
+
+/*********************************
+Header/navigation section
+**********************************/
+header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+header a {
+	color: #fff;
+	display: inline-block;
+}
+
+#HeaderBar {
+	background: #ddd;
+	height: 150px;
+}
+#Header {
+	color: #000;
+	margin: 0 auto;
+	text-align: left;
+	display: block;
+	width: 800px;
+	height: 100px;
+}
+#NavBar {
+	background: #d0d0d0;
+}
+nav {
+	width: 800px;
+	text-align: left;
+	display: block;
+	padding: 15px 0 15px 20px;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.8);
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+nav a.selected {
+	color: #bdf;
+	text-decoration: underline;
+}
+
+/*********************************
+Main section
+**********************************/
+main {
+	margin: 200px 0 20px 0;
+}
+main h1, main h2, main h3, main h4 {
+	font-family: 'Times New Roman';
+	font-family: Garamond;
+}
+main p {
+	line-height: 1.4em;
+}
+.content {
+	color: #000;
+	margin: 10px 0 10px 0;
+	text-align: left;
+	display: inline-block;
+	width: 800px;
+}
+.snippetContainer {
+	background: #eee;
+	padding: 15px;
+}
+.snippet {
+	font-size: 2em;
+	color: #333;
+	font-family: 'Times New Roman';
+	font-family: Garamond;
+	font-style: italic;
+}
+.snippetOrigin {
+	margin-top: 5px;
+	font-size: 0.8em;
+	font-style: normal;
+	font-family: Arial;
+}
+.columns {
+	display: flex;
+	margin-bottom: 10px;
+}
+.column {
+	-webkit-flex: 1;
+	flex-grow: 1;
+
+}
+.column:nth-child(2n+1) {
+	padding-right: 10px;
+}
+.column:nth-child(2n) {
+	padding-left: 10px;
+}
+
+/*********************************
+Footer section
+**********************************/
+footer {
+	margin: 50px 0 0 0;
+	border-top: 20px solid #f6f6f6;
+	padding: 20px 0;
+	font-size: 0.9em;
+}
+footer .column:first-child {
+	max-width: 220px;
+}
+footer .column div {
+	margin: 0 0 5px 0;
+}

@@ -1,0 +1,109 @@
+﻿/*********************************
+Global styles
+**********************************/
+body {
+	font-family: Arial;
+	background: #fff;
+	margin: 0;
+	padding: 0 0 100px 0;
+	font-size: 17px;
+}
+a {
+	color: #36c;
+	text-decoration: none;
+}
+
+
+/*********************************
+Header/navigation section
+**********************************/
+#HeaderBar {
+	padding: 0;
+	border-bottom: 1px solid #000;
+	margin: 0 0 0px 0;
+	font-size: 0;
+}
+#HeaderBar a {
+	display: inline-block;
+}
+#HeaderLogo {
+	width: 100%;
+	height: auto;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+nav li {
+	background: #333;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	display: block;
+	margin: 0 0 0px 0;
+	-webkit-flex: 1;
+	flex: 1 0 33%;
+}
+nav li a {
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+nav a.selected {
+	background: #369;
+}
+
+
+/*********************************
+Main section
+**********************************/
+.content {
+	color: #000;
+	margin: 20px 15px;
+}
+main h1, main h2, main h3, main h4 {
+	font-family: 'Times New Roman';
+	font-family: Garamond;
+}
+main p {
+	line-height: 1.4em;
+}
+.snippetContainer {
+	background: #eee;
+	padding: 15px;
+}
+.snippet {
+	font-size: 2em;
+	color: #333;
+	font-family: 'Times New Roman';
+	font-family: Garamond;
+	font-style: italic;
+}
+.snippetOrigin {
+	margin-top: 5px;
+	font-size: 0.8em;
+	font-style: normal;
+	font-family: Arial;
+}
+.column:nth-child(2n+1) {
+	margin-bottom: 10px;
+}
+
+/*********************************
+Footer section
+**********************************/
+footer {
+	margin: 50px 0 0 0;
+	border-top: 20px solid #eee;
+	padding: 20px 0;
+	font-size: 0.8em;
+}
+footer .column {
+	margin-top: 20px;
+}
+footer .column div {
+	margin: 0 0 5px 0;
+}
